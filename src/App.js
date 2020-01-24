@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
+import { contacts } from './data'
+import ContactBook from './components/ContactBook'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  state = {
+    contactList: contacts
+  };
+
+  render() {
+    return (
+      <div className="container-fluid">
+        <h2 className="text-center">My Contact Book</h2>
+        <ContactBook list={this.state.contactList} />
+      </div>
+    )
+  }
 }
-
-export default App;
