@@ -9,8 +9,8 @@ export default class Table extends Component {
 
         return (
             <table className='table table-hover table-sm'>
-                <TableHead columns={columns}/>
-                <TableBody data={data}/>
+                <TableHead columns={columns} />
+                <TableBody data={data} />
             </table>
         )
     }

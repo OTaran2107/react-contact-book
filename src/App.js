@@ -12,7 +12,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <h2 className="text-center">My Contact Book</h2>
+        <h2 className="text-center">Contact Book</h2>
         <ContactBook list={this.state.contactList} />
       </div>
     )
