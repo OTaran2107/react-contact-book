@@ -1,0 +1,10 @@
+.save-button {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    width: 100px;
+}
+
+.contact-form {
+    position: relative;
+}
