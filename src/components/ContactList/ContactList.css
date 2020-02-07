@@ -1,29 +1,5 @@
-.contact-list {
-    position: relative;
-    display: 'flex';
-    padding-top: 20px;
-    padding-left: 20px;
-}
 
-.contact-list-header {
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    font-size: 30px;
-    padding: 5px;
-}
 
-.contact-form {
-    display: 'flex';
-    width: 450px;
-    padding: 50px;
-    margin-top: 70px;
-    margin-left: 10px;
-}
 
-.add-button {
-    position: absolute;
-    right: 0;
-    margin-right: 6px;
-    width: 130px;
-}
+
+

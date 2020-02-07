@@ -15,6 +15,7 @@ export default class ContactInfoForm extends Component {
     }
 
     render() {
+        console.log('render form');
         const { contact } = this.props;
         return (
             <form className='form-group' position="relative" onSubmit={this.onFormSubmit}>
